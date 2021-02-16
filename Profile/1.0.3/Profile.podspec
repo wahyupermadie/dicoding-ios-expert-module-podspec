@@ -80,7 +80,8 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Profile/**/*.{swift}"
-
+  s.resources = "Profile/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  
   # spec.public_header_files = "Classes/**/*.h"
 
 
